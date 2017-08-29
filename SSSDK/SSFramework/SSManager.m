@@ -8,7 +8,9 @@
 
 #import "SSManager.h"
 
+
 @implementation SSManager
+
 static SSManager *_share = nil;
 
 + (instancetype)creationShare
@@ -29,6 +31,8 @@ static SSManager *_share = nil;
 {
     return [SSManager creationShare];
 }
+
+
 
 
 @end
